@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-security-policy" content="img-src 'self'" content="media-src 'self'" />
     <title>@ViewData["Title"] - MyGram</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -13,7 +14,7 @@
             <div class="container">
                 <span>My Gram</span>
                 <button>Log In</button>
-                <button>Sign Up</button>
+                <a href="~/home/Register"><button>Sign Up</button></a>
             </div>
         </nav>
     </header>
