@@ -351,4 +351,4 @@
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
-/Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/received.cshtml.g.cs
+/Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/User_Profile.cshtml.g.cs
