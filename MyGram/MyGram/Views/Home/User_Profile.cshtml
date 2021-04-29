@@ -14,17 +14,31 @@
                         <label>Last Name:</label>
                         <input sumit="#" placeholder="Add your Last Name" />
                         <br />
+
                         <label>Gender:</label>
-                        <input type="radio" id="Male" name="Male" />
-                        <label for="Male">Male</label>
-                        <input type="radio" id="Female" name="Female" />
-                        <label for="Female">Female</label>
-                        <input type="radio" id="PreferNotToSpecify" name="Prefer Not To Specify" />
+                        <input type="radio" id="MaleGender" name="gender" />
+                        <label for="MaleGender">Male</label>
+
+                        <input type="radio" id="FemaleGender" name="gender" />
+                        <label for="FemaleGender">Female</label>
+
+                        <input type="radio" id="PreferNotToSpecify" name="gender" />
                         <label for="PreferNotToSpecify">Prefer Not To Specify</label>
+
                         <br />
+
+                        <label>Select your favorite color:</label>
+                        <input type="color" id="FavoriteColor"/>
+                       
+                        <label for="Birthday">Birthday</label>
+                        <input type="date" id="Birthday"/>
+
+                        <br />
+
                         <label>Email address:</label>
                         <input sumit="#" placeholder="Type your e-mail address" />
                         <br />
+
                         <label>Country of Residence:</label>
                         <select>
                             <option>
@@ -32,8 +46,15 @@
                             </option>
                         </select>
                         <br />
+                        <tr>
+                            <td colspan="2">
+                                <label>Select profile image </label>
+                                <input type="file" id="ChooseFiles"
+                            </td>
+                            <br />
+
                         <button submit="#">Update User Information</button>
-                    </td>
+                    </tr>
                 </tr>
             </tbody>
         </table>

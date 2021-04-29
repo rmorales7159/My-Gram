@@ -69,3 +69,8 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.MainImage1{
+    width: 15px !important;
+    height: 15px !important;
+}

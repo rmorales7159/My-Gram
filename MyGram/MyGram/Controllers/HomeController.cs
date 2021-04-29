@@ -33,12 +33,12 @@ namespace MyGram.Controllers
             return View();
         }
 
-        public IActionResult SaveUser(string UserName, string Password)
+        public IActionResult RegisterUser(string UserName, string Password)
         {
             string myResult =
                 "The user is: " + UserName +
                 " and the Password is: " + Password;
-            return Content(myResult);
+            return Content (myResult);
         }
 
         public IActionResult User_Profile()
