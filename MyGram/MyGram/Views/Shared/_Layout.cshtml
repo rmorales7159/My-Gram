@@ -20,7 +20,7 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -42,6 +42,30 @@
             </div>
         </footer>
     </div>
+
+    <div class="blackline">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <span>Log In to My Gram</span>
+                    </td>
+                    <td>
+                        <a href="~/home/Register"><button class="button1">Log In</button></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Log in to see photos and videos from friends and discover other accounts you will love.</span>
+                    </td>
+                    <td class="signup">
+                        <a href="~/home/User_Profile.cshtml" class="signup1">Sign Up</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
