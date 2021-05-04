@@ -351,3 +351,4 @@
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.dll
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
+/Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache

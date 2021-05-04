@@ -200,8 +200,18 @@ body {
     bottom: 0;
     height: 80px;
     z-index: 2;
-    animation: animation;
+    animation:ease-in-out;
     animation-delay: 1s;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    animation-name: MyAnimation;
+}
+@keyframes MyAnimation {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        visibility: hidden;
+    }
 }
