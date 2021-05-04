@@ -2,74 +2,91 @@
     ViewData["Title"] = "Home Page";
 }
 
-<style>
-    img {
-        width: 150px;
-        height: 150px;
-        
-    }
-    
-</style>
+<link rel="stylesheet" href="~/css/Index.css" />
 
-    <table id="MainTableContainer">
-        <div class="MainTableContainer a">
-            <tbody>
-                <tr>
-                    <td rowspan="3">
-                        <img id="picture1" alt="Profile Image" src="~/Images/download6.jpeg" />
-                    </td>
-                    <td colspan="3">
-                        <span>Rafael Morales</span>
-                        <button class="button">Follow</button>
-                    </td>
-                <tr>
-                    <td colspan="3">
-                        <b>6</b>&#160
-                        <span>Posts</span>&#160
-                        <b>No</b>&#160
-                        <span>Followers</span>&#160
-                        <b>0</b>&#160
-                        <span>Following</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <span>This is an example description</span>
 
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3" id="PageLinks">
-                        <div class="PageLinks a">
-                            <a href="#">POSTS</a>&#160 &#160 &#160
-                            <a href="#">REELS</a>&#160 &#160 &#160
-                            <a href="#">IGTV</a>&#160 &#160 &#160
-                            <a href="#">TAGGED</a>&#160 &#160 &#160
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="~/Images/Download1.jpeg" alt="Image 1" />
-                    </td>
-                    <td>
-                        <img src="~/Images/Download2.jpeg" alt="Image 2" />
-                    </td>
-                    <td>
-                        <img src="~/Images/Download3.jpeg" alt="Image 3" />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="~/Images/Download4.jpeg" alt="Image 4" />
-                    </td>
-                    <td>
-                        <img src="~/Images/Download5.jpeg" alt="Image 5" />
-                    </td>
-                    <td>
-                        <iframe width="150px" height="150px" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
-                    </td>
-                </tr>
-            </tbody>
-        </div>
+<table id="MainTableContainer">
+    <tbody>
+        <tr>
+            <td rowspan="3">
+                <img id="picture1" alt="Profile Image" src="~/Images/download6.jpeg" />
+            </td>
+
+            <td colspan="3">
+                <span>Rafael Morales</span>
+                <button class="button">Follow</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <b>6</b>&#160
+                <span>Posts</span>&#160
+                <b>No</b>&#160
+                <span>Followers</span>&#160
+                <b>0</b>&#160
+                <span>Following</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <span>This is an example description</span>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div id="secondtable">
+    <table>
+        <tbody>
+            <tr class="secondtablerow1">
+                <td id="vitor">
+                    <img class="victor" alt="Victor Wooten" src="~/Images/Victor.jpg" />
+                    <br />
+                    <span class="Victor a">Victor Wooten</span>
+                </td>
+                <td id="kiko">
+                    <img class="kiko1" alt="Federico Malaman" src="~/Images/federico.webp" />
+                    <br />
+                    <span class="kiko a">Federico Malaman</span>
+                </td>
+            </tr>
+        </tbody>
     </table>
+</div>
+<nav id="PageLinks">
+    <div class="PageLinks a">
+        <a href="#">POSTS</a>&#160 &#160 &#160
+        <a href="#">REELS</a>&#160 &#160 &#160
+        <a href="#">IGTV</a>&#160 &#160 &#160
+        <a href="#">TAGGED</a>&#160 &#160 &#160
+    </div>
+</nav>
+<div id="thridtable">
+    <table class="CenterTable">
+        <tbody>
+            <tr>
+                <td class="thirdtablerow1">
+                    <img src="~/Images/Download1.jpeg" alt="Image 1" />
+                </td>
+                <td>
+                    <img src="~/Images/Download2.jpeg" alt="Image 2" />
+                </td>
+                <td>
+                    <img src="~/Images/Download3.jpeg" alt="Image 3" />
+                </td>
+            </tr>
+            <tr>
+                <td class="thirdtablerow2">
+                    <img src="~/Images/Download4.jpeg" alt="Image 4" />
+                </td>
+                <td>
+                    <img src="~/Images/Download5.jpeg" alt="Image 5" />
+                </td>
+                <td>
+                    <iframe width="150px" height="150px" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</div>
