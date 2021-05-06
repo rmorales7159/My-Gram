@@ -1,24 +1,54 @@
 ﻿.CenterTable {
     margin-left: auto;
     margin-right: auto;
+    
 }
+
+
 
 img {
     width: 150px;
     height: 150px;
 }
-.signup{
-    text-align:center;
+
+.PositionClass {
+    position:relative;
+    background-color: white; 
 }
 
+.PositionClass2 {
+    background-color: none;
+    color: none;
+    position: sticky;
+    height: 150px;
+    width: 150px;
+    z-index:2;
+}
+.PositionClass:hover .PositionClass3 {
+    display: block;
+}
+.PositionClass3 {
+    background-color: rgba(0,0,0,.8);
+    color:white; 
+    position:absolute;
+    left:0;
+    top:0;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding-top: 45%;
+    z-index:3;
+    backdrop-filter:blur(2px);
+    display:none;
+    
+}
 
-.button1 {
-    background-color: dodgerblue;
-    color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-bottom-color: none;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 1px 20px 1px 20px;
+.thump{
+    width:13px;
+    height:13px;
+    bottom:2px;
+}
+.comments {
+    width: 20px;
+    height: 20px;
 }

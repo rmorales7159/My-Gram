@@ -180,12 +180,7 @@ body {
     padding-left:20px;
 }
 
-#thirdtable {
-    display: block;
-    visibility: visible;
-    padding-left: 25%;
-    text-align: center;
-}
+
 
 .blackline {
     padding-left:25%;
@@ -215,3 +210,32 @@ body {
         visibility: hidden;
     }
 }
+
+.registerbutton {
+    background-color: dodgerblue !important;
+    color: white !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-bottom-color: none !important;
+    border-radius: 10px !important;
+    text-decoration: none !important;
+}
+.button1 {
+    background-color: dodgerblue !important;
+    color: white !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-bottom-color: none !important;
+    border-radius: 10px !important;
+    text-decoration: none !important;
+    padding: 1px 20px 1px 20px !important;
+}
+.signup {
+    text-align: center;
+    text-decoration:none;
+}
+
+
+
+
+

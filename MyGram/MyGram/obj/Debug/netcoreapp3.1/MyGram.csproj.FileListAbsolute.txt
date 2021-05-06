@@ -322,6 +322,7 @@
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfoInputs.cache
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfo.cs
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csproj.CoreCompileInputs.cache
@@ -351,4 +352,3 @@
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.dll
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
 /Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
-/Users/rafaelmorales/Desktop/my gram/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache
